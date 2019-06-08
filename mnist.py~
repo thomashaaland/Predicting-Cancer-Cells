@@ -1,6 +1,0 @@
-## Loading MNIST from keras
-
-import keras
-from sklearn.preprocessing import labelBinarizer
-import matplotlib.pyplot as plt
-%matplotlib inline
