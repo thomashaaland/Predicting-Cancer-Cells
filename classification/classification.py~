@@ -1,0 +1,29 @@
+# Taken from https://www.tensorflow.org/alpha/tutorials/keras/feature_columns
+# Classification project, will attempt to classify heart trouble in patients
+# Wishlist:
+
+# Import dependencies
+from __future__ import absolute_import, division, print_function, unicode_literals
+
+import numpy as np
+import pandas as pd
+
+import tensorflow as tf
+
+from tensorflow import feature_column
+from tensorflow.keras import layers
+from sklearn.model_selection import train_test_split
+
+URL = 'https://storage.googleapis.com/applied-dl/heart.csv'
+dataframe = pd.read_csv(URL)
+dataframe.head()
+
+# Import database
+
+# split database between train and test
+
+# prep database to make it useable by model
+
+# Choose and make model
+
+# train model
