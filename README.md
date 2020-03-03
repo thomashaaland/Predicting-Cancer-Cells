@@ -1,2 +1,2 @@
-# Prediction on cancer cells
+# Predicting Cancer Cells
 Using a simple Feed Forward Neural Network to predict cancer cells.
